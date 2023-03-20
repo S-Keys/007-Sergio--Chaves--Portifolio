@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+
+:root{
+    --cor-fundo: #393E46;
+    --cor-contraste: #222831;
+    --cor-destaque: #FFD369;
+    --cor-texto: #EEEEEE;
+
+    --fonte-principal:'Josefin Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color:var(--cor-fundo);
+    color:var(--cor-texto);
+}
+
+.cabecalho{
+    padding: 1em 0 1em 10%;
+    background-color:var(--cor-contraste);
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 2em;
+}
+
+.cabecalho_menu_link{
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    font-size: 1.5em;
+    color:var(--cor-destaque);
+    text-decoration:none;
+}
+
+.cabecalho_menu_link:hover{
+    transition: 0.8s;
+    box-shadow: inset 6em 0 0 0 var(--cor-destaque);
+    color: var(--cor-contraste);
+}
+
+.titulo-destaque{
+    color: var(--cor-destaque);
+}
+
+.apresentacao{
+    padding: 5% 10%;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__conteudo{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 1.8em;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+}
+
+.apresentacao__conteudo__paragrafo{
+    font-size: 1.6em;
+    font-family: var(--fonte-principal);
+    font-weight: 100;
+}
+
+.apresentacao__links{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao__link__botao{
+    background-color: var(--cor-contraste);
+    display: flex;
+    justify-content: center;
+    width: 27%;
+    text-align: center;
+    border-radius: 0.4em 0;
+    border: 0.1em solid var(--cor-destaque);
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 0.4em 0;
+    color: var(--cor-destaque);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+}
+
+.apresentacao__link__botao:hover{
+    border: 0.1em solid var(--cor-contraste);
+    transition: 1.3s;
+    box-shadow: inset 20em 0 0 0 var(--cor-destaque);
+    color: #222831;
+}
+
+.logo_redes_sociais{
+    border: none;
+    border-radius: 0;
+    width: 1.1em;
+    height: 1.1em;
+}
+
+img {
+    height: 25em;
+    width: auto;
+    margin-left: 2em;
+    border-radius: 2em 0;
+    border: 0.17em solid var(--cor-destaque);
+}
+
+.rodape{
+    color:var(--cor-texto);
+    background-color: var(--cor-contraste);
+    padding: 1em;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+}
