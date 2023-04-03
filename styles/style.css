@@ -316,6 +316,11 @@ body{
         font-size: 1rem;
     }
 
+    .apresentacao__imagem{
+        width: 95%;
+
+    }
+
     .apresentacao__fotos__container{
         flex-direction: column;
         justify-content:space-around;
