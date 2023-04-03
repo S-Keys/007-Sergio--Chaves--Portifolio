@@ -173,12 +173,12 @@ body{
     align-items: center;
 }
 
-.apresentacao__links_curriculo{
-    justify-content: space-between;
+.apresentacao__links__curriculo{
+    width: 80%;
+    margin: auto;
     display: flex;
+    justify-content:space-evenly;
     align-items: center;
-    padding: 2rem 3rem;
-
 }
 
 .apresentacao__conteudo__paragrafo_curriculo{
@@ -203,15 +203,17 @@ body{
 }
 
 .apresentacao__fotos__imagem{
-    width: 13rem;
+    width: 10rem;
     opacity: 0.40;
     border-radius: 1rem 0;
     border: 0.1rem solid var(--cor-destaque);
+    cursor: pointer;
 }
 
 .apresentacao__fotos__imagem:hover{
     border: 0.3rem solid var(--cor-destaque);
-    width: 40rem;
+    width: 30rem;
+    position:static;
     opacity: 1;
     transition: 0.8s;
     }
@@ -270,8 +272,12 @@ body{
         width: 70%;
     }
 
+    .apresentacao__fotos__imagem{
+        width: 15rem;
+    }
+    
     .apresentacao__fotos__imagem:hover{
-        width: 35rem;
+        width: 30rem;
     }
 }
 
@@ -287,6 +293,11 @@ body{
     }
 
     .apresentacao__links{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .apresentacao__links__curriculo{
         flex-direction: column;
         gap: 1rem;
     }
