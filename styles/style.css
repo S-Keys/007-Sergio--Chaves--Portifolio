@@ -40,7 +40,7 @@ body{
 
 .cabecalho_menu_link:hover{
     transition: 0.8s;
-    box-shadow: inset 6rem 0 0 0 var(--cor-destaque);
+    box-shadow: inset 7rem 0 0 0 var(--cor-destaque);
     color: var(--cor-contraste);
 }
 
@@ -115,7 +115,8 @@ body{
 
 .apresentacao__imagem {
     height: auto;
-    width: 40%;
+    width: 80%;
+    margin: 0 auto;
     border-radius: 2rem 0;
     border: 0.17rem solid var(--cor-destaque);
 }
